@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Transport Simple</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="main">
+          <!------------------------------------------------------------------------------- Navbar 1 -------------------------------------------------------------------------------->
+
+          <div class="a1">
+            <div class="logo">
+              <img src="logo (1).png" />
+            </div>
+            <div class="search">
+              <select>
+                <option value="0">All</option>
+              </select>
+              <input type="text" placeholder="Search.." /><i
+                class="ion-search"
+              ></i>
+            </div>
+            <div class="menu">
+              <div class="bell">
+                <img src="bell.png" />
+              </div>
+              <div class="mask">
+                <img src="mask.png" />
+              </div>
+              <div class="simple">
+                <select>
+                  <option value="0">Simple Transport</option></select
+                ><i class="ion-arrow-down-b"></i>
+              </div>
+            </div>
+          </div>
+
+          <!------------------------------------------------------------------------------- Navbar 2 -------------------------------------------------------------------------------->
+
+          <div class="a2">
+            <div style="display: flex; justify-content: space-evenly">
+              <i class="ion-grid"></i>
+              <p>Main 1</p>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <i class="ion-planet"></i>
+              <p>Main 2</p>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <i class="ion-gear-b"></i>
+              <p>Main 3</p>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <i class="ion-social-usd"></i>
+              <p>Main 4</p>
+            </div>
+            <div
+              style="display: flex; justify-content: space-evenly"
+              class="active"
+            >
+              <i class="ion-document-text"></i>
+              <p>Main 5</p>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <i class="ion-calendar"></i>
+              <p>Main 6</p>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <i class="ion-pinpoint"></i>
+              <p>Main 7</p>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <i class="ion-clock"></i>
+              <p>Main 8</p>
+            </div>
+          </div>
+
+          <!------------------------------------------------------------------------------- Summary -------------------------------------------------------------------------------->
+
+          <div class="a3">
+            <div class="b1">
+              <h>Summary</h>
+              <input type="date" id="myDate" value="2014-02-09" />
+            </div>
+
+            <!------------------------------------------------------------------------------- Account -------------------------------------------------------------------------------->
+
+            <div class="b2">
+              <div class="b21">
+                <ul>
+                  <li>Acc No.:<span> 1234567890QWERTY</span></li>
+                  <li>Acc Holder.:<span> Jasdeep Singh</span></li>
+                  <li>Bank :<span> HDFC Bank</span></li>
+                </ul>
+              </div>
+
+              <div class="b22">
+                <ul>
+                  <li>Branch :<span> Kasturi Nagar Branch</span></li>
+                  <li>IFSC.: <span> HDFC12345</span></li>
+                </ul>
+              </div>
+              <div class="btn">
+                <button class="btn-active">Active</button>
+              </div>
+            </div>
+
+            <!------------------------------------------------------------------------------- 3 color box -------------------------------------------------------------------------------->
+
+            <div class="b3">
+              <div style="background-color: #4c53af; padding: 0px 10px">
+                <div class="box">
+                  <div>
+                    <h3>Begining Balance</h3>
+                    <h2>Rs. 20,000</h2>
+                  </div>
+                  <div>
+                    <i class="ion-cash"></i>
+                  </div>
+                </div>
+              </div>
+              <div style="background-color: rgb(255, 71, 111)">
+                <div class="box" style="border-right: 1px dotted grey">
+                  <div>
+                    <h3>Going In</h3>
+                    <h2>Rs. 20,000</h2>
+                  </div>
+                  <div>
+                    <i class="ion-cash"></i>
+                  </div>
+                </div>
+                <div class="box">
+                  <div>
+                    <h3>Going Out</h3>
+                    <h2>Rs. 20,000</h2>
+                  </div>
+                  <div>
+                    <i class="ion-cash"></i>
+                  </div>
+                </div>
+              </div>
+              <div style="background-color: rgb(255, 114, 71)">
+                <div class="box">
+                  <div>
+                    <h3>Ending Balance</h3>
+                    <h2>Rs. 20,000</h2>
+                  </div>
+                  <div>
+                    <i class="ion-cash"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="b4">
+              <div style="padding-top: 5px">
+                <div class="above-image">
+                  <div style="width: 50%">
+                    <h2>Cash Summary</h2>
+                    <div class="color-dots">
+                      <div>
+                        <span
+                          class="dot"
+                          style="background-color: rgb(240, 25, 79)"
+                        ></span>
+                        <p>Value April</p>
+                      </div>
+                      <div>
+                        <span
+                          class="dot"
+                          style="background-color: rgb(235, 106, 20)"
+                        ></span>
+                        <p>Value March</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="width: 50%; text-align: right; align-items: center"
+                  >
+                    <select class="date">
+                      <option value="0">April</option>
+                    </select>
+                    <select class="date">
+                      <option value="0">Week</option>
+                    </select>
+                    <i
+                      class="ion-android-more-vertical"
+                      style="margin-left: 20px"
+                    ></i>
+                  </div>
+                </div>
+                <div style="text-align: center">
+                  <div class="bitmap">
+                    <img src="Bitmap.png" />
+                  </div>
+                </div>
+              </div>
+              <div style="box-shadow: 1px 1px 5px 1px #c9c9c9">
+                <div class="t-transaction">
+                  <div style="flex: 0.15; font-weight: bold">Transaction</div>
+                  <div style="flex: 0.3">
+                    <ul>
+                      <li style="border-bottom: 1px solid black">All</li>
+                      <li>Deposits</li>
+                      <li>Withdrawl</li>
+                    </ul>
+                  </div>
+                  <div style="flex: 0.45; text-align: center">
+                    <div class="trsearch">
+                      <input type="text" placeholder="Search" /><i
+                        class="ion-search"
+                      ></i>
+                    </div>
+                  </div>
+                  <div style="flex: 0.1">
+                    Showing
+                    <select name="5">
+                      <option value="1">5</option>
+                    </select>
+                    <i
+                      class="ion-android-more-vertical"
+                      style="margin-left: 20px"
+                    ></i>
+                  </div>
+                </div>
+                <!-------------------------------transaction-------------------->
+                <table>
+                  <tr>
+                    <th>
+                      DATE<i class="ion-navicon" style="margin-left: 1rem"></i>
+                    </th>
+                    <th>
+                      TRANSACTION DETAIL<i
+                        class="ion-navicon"
+                        style="margin-left: 1rem"
+                      ></i>
+                    </th>
+                    <th>
+                      WITHDRAWALS<i
+                        class="ion-navicon"
+                        style="margin-left: 1rem"
+                      ></i>
+                    </th>
+                    <th>
+                      DEPOSITED<i
+                        class="ion-navicon"
+                        style="margin-left: 1rem"
+                      ></i>
+                    </th>
+                    <th>
+                      RUNNING BALA<i
+                        class="ion-navicon"
+                        style="margin-left: 1rem"
+                      ></i>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>01/19/2018</td>
+                    <td>IN/1-Debit/Citrus pa/xxXxxxx93711</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>
+                      <i
+                        class="ion-android-more-vertical"
+                        style="margin-left: 20px"
+                      ></i>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>01/19/2018</td>
+                    <td>IN/1-Debit/Citrus pa/xxXxxxx93711</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>
+                      <i
+                        class="ion-android-more-vertical"
+                        style="margin-left: 20px"
+                      ></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>01/19/2018</td>
+                    <td>IN/1-Debit/Citrus pa/xxXxxxx93711</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>
+                      <i
+                        class="ion-android-more-vertical"
+                        style="margin-left: 20px"
+                      ></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>01/19/2018</td>
+                    <td>IN/1-Debit/Citrus pa/xxXxxxx93711</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>
+                      <i
+                        class="ion-android-more-vertical"
+                        style="margin-left: 20px"
+                      ></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>01/19/2018</td>
+                    <td>IN/1-Debit/Citrus pa/xxXxxxx93711</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>₹ 5,000</td>
+                    <td>
+                      <i
+                        class="ion-android-more-vertical"
+                        style="margin-left: 20px"
+                      ></i>
+                    </td>
+                  </tr>
+                </table>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: flex-end;
+                    font-size: 10px;
+                  "
+                >
+                  <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#">1</a>
+                    <a class="active" href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                  </div>
+                </div>
+              </div>
+              <div style="box-shadow: 1px 1px 5px 1px #c9c9c9">
+                <table>
+                  <tr>
+                    <th>SELECT</th>
+                    <th>DATE OF BILL</th>
+                    <th>BILL NUMBER</th>
+                    <th>DEU DATE</th>
+                    <th>BILL AMOUNT</th>
+                    <th>AMOUNT DUE</th>
+                    <th>ADJUSTMENT</th>
+                    <th>WITHHOLD</th>
+                    <th>BALANCE</th>
+                    <th>AMOUNT PAID</th>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>01/19/2018</td>
+                    <td>123456789</td>
+                    <td>01/19/2018</td>
+                    <td>5000</td>
+                    <td>5000</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><input type="number" placeholder="1000" /></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>01/19/2018</td>
+                    <td>123456789</td>
+                    <td>01/19/2018</td>
+                    <td>5000</td>
+                    <td>5000</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><input type="number" placeholder="1000" /></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>01/19/2018</td>
+                    <td>123456789</td>
+                    <td>01/19/2018</td>
+                    <td>5000</td>
+                    <td>5000</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><input type="number" placeholder="1000" /></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>01/19/2018</td>
+                    <td>123456789</td>
+                    <td>01/19/2018</td>
+                    <td>5000</td>
+                    <td>5000</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><input type="number" placeholder="1000" /></td>
+                  </tr>
+                </table>
+      
+              </div>
+            </div>
+          </div>
+          <!----------------------------bottom button------------------------->
+          <div class="back">
+            <button class="back-active">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>
+      © 2018 Transport Simple. Trademarks and brands are the property of their
+      respective owners.
+    </p>
+    <ul>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </footer>
+</html>
